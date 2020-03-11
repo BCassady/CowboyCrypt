@@ -332,7 +332,7 @@ def decrypt():
     print(newSentence)
 eord = ""
 while(eord!="E" and eord!= "D"):
-    eord = input("Would you like to encrypt or decrypt? (E or D)? ")
+    eord = input("Would you like to encrypt or decrypt? (E or D)? ").upper()
 if(eord=="E"):
     encrypt()
 else:
